@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
-              <span class="suite-name border-failed">Surefire suite</span>
+              <span class="suite-name border-passed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Surefire_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.udemy.pageclasses.ZapposTestRunner2" hash-for-method="runScenario(&quot;Product Search&quot;, &quot;Zappos feature&quot;)">runScenario("Product Search", "Zappos feature")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,12 +102,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.udemy.pageclasses.ZapposTestRunner2" hash-for-method="runScenario(&quot;Favorites Scenario&quot;, &quot;Zappos feature&quot;)">runScenario("Favorites Scenario", "Zappos feature")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.udemy.pageclasses.ZapposTestRunner2" hash-for-method="runScenario(&quot;Another Product Search&quot;, &quot;Zappos feature&quot;)">runScenario("Another Product Search", "Zappos feature")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.udemy.pageclasses.ZapposTestRunner" hash-for-method="runScenario(&quot;Another Product Search&quot;, &quot;Zappos feature&quot;)">runScenario("Another Product Search", "Zappos feature")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -136,45 +117,12 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.udemy.pageclasses.ZapposTestRunner2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Product Search&quot;, &quot;Zappos feature&quot;)">
-                  </a> <!-- runScenario("Product Search", "Zappos feature") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Product Search", "Zappos feature")</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [https://www.zappo.com/] but found [https://www.zappos.com/]
-	at com.udemy.pageclasses.ZapposStepDefn.user_Clicked_on_Sigin_and_Navigate_to_Login_Page(ZapposStepDefn.java:52)
-	at ✽.User Clicked on Sigin and Navigate to Login Page(file:///D:/Projects/JavaProjects/LearnCucumber/src/test/java/com/udemy/pageclasses/zappostest.feature:5)
-... Removed 6 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.udemy.pageclasses.ZapposTestRunner2</span>
+              <span class="class-name">com.udemy.pageclasses.ZapposTestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Favorites Scenario&quot;, &quot;Zappos feature&quot;)">
-                  </a> <!-- runScenario("Favorites Scenario", "Zappos feature") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Favorites Scenario", "Zappos feature")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="runScenario(&quot;Another Product Search&quot;, &quot;Zappos feature&quot;)">
@@ -198,7 +146,7 @@
 &lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
   &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.udemy.pageclasses.ZapposTestRunner2&quot;/&gt;
+      &lt;class name=&quot;com.udemy.pageclasses.ZapposTestRunner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -246,24 +194,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'com.udemy.pageclasses.ZapposTestRunner2')
-data.setCell(0, 3, 60655);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'com.udemy.pageclasses.ZapposTestRunner2')
-data.setCell(1, 3, 40300);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'com.udemy.pageclasses.ZapposTestRunner2')
-data.setCell(2, 3, 35040);
+data.setCell(0, 2, 'com.udemy.pageclasses.ZapposTestRunner')
+data.setCell(0, 3, 41666);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 41 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -289,28 +229,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.udemy.pageclasses.ZapposTestRunner2</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.udemy.pageclasses.ZapposTestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Product Search", "Zappos feature")</span>
-                <span class="method-start">1392 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">runScenario("Another Product Search", "Zappos feature")</span>
-                <span class="method-start">41711 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Favorites Scenario", "Zappos feature")</span>
-                <span class="method-start">102367 ms</span>
+                <span class="method-start">738 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">137408 ms</span>
+                <span class="method-start">42406 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

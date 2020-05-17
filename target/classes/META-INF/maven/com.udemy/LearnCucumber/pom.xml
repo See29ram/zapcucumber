@@ -177,7 +177,9 @@
 					    <reuseForks>false</reuseForks>
 					    <testFailureIgnore>true</testFailureIgnore>
 					    <includes>
-					      <include>**/com/udemy/pageclasses/ZapposTestRunner*.java</include>
+					      <!-- <include>**/com/udemy/pageclasses/ZapposTestRunner*.java</include> -->
+					      <!-- <include>**/ZapposTestRunner.java</include> -->
+					      <include>${runner.name}</include>
 					    </includes>
 						<suiteXmlFiles>
 							<!-- <suiteXmlFile>${testngxml.location}/testng.xml</suiteXmlFile> -->

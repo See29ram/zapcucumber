@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.udemy.pageclasses.ZapposTestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 82.565 s - in com.udemy.pageclasses.ZapposTestRunner
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.585 s - in com.udemy.pageclasses.ZapposTestRunner
