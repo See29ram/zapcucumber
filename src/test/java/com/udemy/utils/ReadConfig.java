@@ -83,4 +83,16 @@ public class ReadConfig implements IReader {
 		return prop.getProperty("browser");
 	}
 
+	@Override
+	public void setBrowserType() {
+		// TODO Auto-generated method stub
+		
+		String browserName=System.getProperty("BrowserType");
+		if(browserName ==null || browserName.isEmpty())
+			browserName="chrome";
+		prop.setProperty("browser", browserName);
+		
+		
+	}
+
 }

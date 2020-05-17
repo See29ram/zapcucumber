@@ -79,6 +79,7 @@ public class DriverService {
 	public void LaunchBrowser() {
 		// C
 		ireader = new ReadConfig();
+		ireader.setBrowserType();
 		driver = getBrowserDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
